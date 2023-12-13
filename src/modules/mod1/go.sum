@@ -1,0 +1,8 @@
+github.com/google/uuid v1.0.0 h1:b4Gk+7WdP/d3HZH8EJsZpvV7EtDOgaZLtnaNGIu1adA=
+github.com/google/uuid v1.0.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/nilanjanb3/cryptit v0.0.0-20231213161211-8aa96bef1d5b h1:loP6ifvgl+PIwGtJ0wPpuy+LoelFENRq1qCAYUpgM04=
+github.com/nilanjanb3/cryptit v0.0.0-20231213161211-8aa96bef1d5b/go.mod h1:5+UXG0RyiqqayMN9DG/NMb7rXbdwn7zyXKOImDcAAAk=
+github.com/nilanjanb3/cryptit v0.2.0 h1:5xgYnW1fD/Czj6fyNBUgAWVdhwR/yOXfcGJ32/j2L3U=
+github.com/nilanjanb3/cryptit v0.2.0/go.mod h1:5+UXG0RyiqqayMN9DG/NMb7rXbdwn7zyXKOImDcAAAk=
+github.com/pborman/uuid v1.2.1 h1:+ZZIw58t/ozdjRaXh/3awHfmWRbzYxJoAdNJxe/3pvw=
+github.com/pborman/uuid v1.2.1/go.mod h1:X/NO0urCmaxf9VXbdlT7C2Yzkj2IKimNn4k+gtPdI/k=
