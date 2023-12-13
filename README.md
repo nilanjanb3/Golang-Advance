@@ -20,9 +20,9 @@ This repository is made to document advanced Golang topics
     * [13-Range in Channel](https://techwasti.com/range-over-channel-in-go-lang)
     * [14-Select for Concurrency Management](https://www.geeksforgeeks.org/select-statement-in-go-language/)
     * [15-Practice-Cleaning up Goroutine](https://medium.com/codezillas/golang-leaky-goroutines-and-how-to-clean-them-30b505417028)
-    * [16-Practice-Spawnning Go Clousures](./src/07-spawning_goroutine_clousures.go)
+    * [16-Practice-Spawnning Go Closures](./src/07-spawning_goroutine_clousures.go)
     * [17-Practice-Buffered and Unbuffered Channels](https://www.scaler.com/topics/golang/buffered-and-unbuffered-channel-in-golang/)
-    * [18-Practice-Timeout in Conccurrency Practice](https://go.dev/blog/concurrency-timeouts)
+    * [18-Practice-Timeout in Concurrency Practice](https://go.dev/blog/concurrency-timeouts)
 * 03-Module, Package and Imports
     * []()
     * []()
