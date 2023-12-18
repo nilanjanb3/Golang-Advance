@@ -22,6 +22,7 @@ func main() {
 
 	}
 	endTime := time.Now()
-	time.Sleep(2 * time.Second)
+	wg.Wait()
+	// time.Sleep(2 * time.Second)
 	fmt.Println(endTime.Sub(startTime))
 }
