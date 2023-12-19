@@ -1,11 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os/exec"
+)
 
 func main() {
-
-	ch := make(chan int, 1)
-	ch <- 10
-	close(ch)
-	fmt.Println(<-ch)
+	cmd := exec.Command("ls", "-al")
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		fmt.Errorf(err.Error())
+	}
+	fmt.Printf("%s", output)
 }
