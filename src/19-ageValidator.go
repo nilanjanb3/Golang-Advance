@@ -10,7 +10,7 @@ type CustomAgeValidationError struct {
 }
 
 // Error returns the error message
-func (e *CustomAgeValidationError) Error() string {
+func (e CustomAgeValidationError) Error() string {
 	return e.Message
 }
 
