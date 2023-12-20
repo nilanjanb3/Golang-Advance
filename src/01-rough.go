@@ -2,14 +2,16 @@ package main
 
 import (
 	"fmt"
-	"os/exec"
+	"strconv"
 )
 
 func main() {
-	cmd := exec.Command("ls", "-al")
-	output, err := cmd.CombinedOutput()
-	if err != nil {
-		fmt.Errorf(err.Error())
-	}
-	fmt.Printf("%s", output)
+	var num int = 3
+	var str string = strconv.FormatInt(int64(num), 10)
+	fmt.Println(str)
+	copy, _ := strconv.ParseInt(str, 10, 64)
+	fmt.Println(copy)
+	var f float64 = float64(num)
+	fmt.Printf("%0.2f", f)
+
 }
